@@ -2,4 +2,11 @@
 .task-item {
   border: 1px solid common.$color-outline;
   padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  button {
+    margin-right: 8px;
+  }
 }
