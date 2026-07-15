@@ -43,27 +43,12 @@
     {
       "title": "test",
       "done": false,
-      "id": "1vEn1Gl_izw"
-    },
-    {
-      "title": "test",
-      "done": false,
-      "id": "MpAqbVBZQtE"
-    },
-    {
-      "title": "test",
-      "done": false,
-      "id": "vkNFx9Yo8ho"
-    },
-    {
-      "title": "12312",
-      "done": false,
-      "id": "uBXF5Nt7cWA"
-    },
-    {
-      "title": "test",
-      "done": false,
       "id": "aYqx7n-h0q0"
+    },
+    {
+      "title": "testiraj vercel",
+      "done": false,
+      "id": "i85e45EXBvE"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
