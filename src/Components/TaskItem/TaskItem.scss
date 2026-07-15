@@ -1,0 +1,5 @@
+@use "../../styles/common";
+.task-item {
+  border: 1px solid common.$color-outline;
+  padding: 16px;
+}
