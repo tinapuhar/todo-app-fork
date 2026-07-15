@@ -1,0 +1,9 @@
+@use "../../styles/common";
+
+.footer {
+  text-align: center;
+  p {
+    font-size: 1rem;
+    color: common.$color-white;
+  }
+}
