@@ -1,5 +1,5 @@
 @use "styles/common";
-@import "normalize.scss";
+@use "normalize.scss";
 body {
   background: common.$color-bg;
   color: common.$color-text;
