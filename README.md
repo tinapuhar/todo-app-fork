@@ -38,7 +38,7 @@ Install the following tools:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/rpritr/todo-app
 cd todo-app
 ```
 
@@ -85,3 +85,11 @@ npm run lint
 ```
 
 Checks the source code for linting issues.
+
+## Available Scripts
+
+Run the backend server with json-server.
+
+```bash
+npx json-server db.json
+```

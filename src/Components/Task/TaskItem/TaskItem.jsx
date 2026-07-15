@@ -1,5 +1,5 @@
 import "./TaskItem.scss";
-import Button from "../Button/Button.jsx";
+import Button from "../../Button/Button.jsx";
 import {useEffect} from "react";
 
 const TaskItem = (props) => {

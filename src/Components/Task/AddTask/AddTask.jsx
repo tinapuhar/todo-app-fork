@@ -1,26 +1,23 @@
 import "./AddTask.scss";
-import "../Button/Button.jsx";
-import Button from "../Button/Button.jsx";
+import "../../Button/Button.jsx";
+import Button from "../../Button/Button.jsx";
 
 const AddTask = () => {
+    // handle form submit to API
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Form submitted");
         const form = e.target;
         const formData = new FormData(form);
         const title = formData.get("task-title");
-
         const url = "http://localhost:3000/tasks";
-        const r = fetch(url, {
+        fetch(url, {
             method: "POST",
             body: JSON.stringify({
                 title: title,
                 done: false,
             })
         });
-        const tasks = r.json();
-        console.log(tasks);
-
+        form.reset(); // reset value in input
     }
 
     return (
