@@ -17,7 +17,7 @@ const TaskList = () => {
     return (
         <div className="task-list">
             {tasks.map((task, index) => (
-                <TaskItem task={task.title} key={index} id={task.id}/>
+                <TaskItem task={task.title} key={index} id={task.id} done={task.done}/>
             ))}
         </div>
     )
